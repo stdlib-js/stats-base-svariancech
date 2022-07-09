@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.svariancech;
+})();
 })();
 </script>
 ```
@@ -224,6 +226,7 @@ var v = svariancech.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-svariancech@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -237,6 +240,7 @@ console.log( x );
 var v = svariancech( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -351,7 +355,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -365,15 +369,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dvariancech]: https://github.com/stdlib-js/stats-base-dvariancech/tree/umd
+[@stdlib/stats/base/dvariancech]: https://github.com/stdlib-js/stats-base-dvariancech/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanvariancech]: https://github.com/stdlib-js/stats-base-snanvariancech/tree/umd
+[@stdlib/stats/base/snanvariancech]: https://github.com/stdlib-js/stats-base-snanvariancech/tree/umd/tree/umd
 
-[@stdlib/stats/base/sstdevch]: https://github.com/stdlib-js/stats-base-sstdevch/tree/umd
+[@stdlib/stats/base/sstdevch]: https://github.com/stdlib-js/stats-base-sstdevch/tree/umd/tree/umd
 
-[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats-base-svariance/tree/umd
+[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats-base-svariance/tree/umd/tree/umd
 
-[@stdlib/stats/base/variancech]: https://github.com/stdlib-js/stats-base-variancech/tree/umd
+[@stdlib/stats/base/variancech]: https://github.com/stdlib-js/stats-base-variancech/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
