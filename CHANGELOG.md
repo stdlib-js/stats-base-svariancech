@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-06)
+## Unreleased (2025-01-08)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`6ed3eab`](https://github.com/stdlib-js/stdlib/commit/6ed3eab19add755588af91b44a96a67b1a40d357) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancech` [(#4547)](https://github.com/stdlib-js/stdlib/pull/4547) _(by Aayush Khanna)_
 -   [`e8c2716`](https://github.com/stdlib-js/stdlib/commit/e8c27161f5dc2cb87b690e4abca6ae57a430f3f2) - **refactor:** update `stats/base/svariancech` native addon from C++ to C [(#4229)](https://github.com/stdlib-js/stdlib/pull/4229) _(by Vinit Pandit)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
